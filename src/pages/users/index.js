@@ -1,13 +1,12 @@
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 
-export default class Users extends Component{
+import UsersComponent from '../../components/UsersComponent'
 
-    render(){
+export default class Users extends Component {
+
+    render() {
         return (
-            <div>
-                <h1>teste</h1>
-
-            </div>
+            <UsersComponent />
         );
     };
 }
